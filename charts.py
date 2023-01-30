@@ -17,5 +17,5 @@ for t in assets:
 
 #Relative scale and base=100. (So every stock starts from the same place in the chart)
 
-(data / data.iloc[0]*100).plot(figsize=(12, 6)) #iloc[0] allows us to fix the denominator. #figsize allows us to represent in a specific size the chart
+(data / data.iloc[0]*100).plot(figsize=(12, 6)) #iloc[0] allows us to fix the denominator. #figsize enables us to represent in a specific size the chart
 plt.show()
